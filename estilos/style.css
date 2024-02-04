@@ -30,8 +30,30 @@ section#celular {
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;  
-    background: url(../imagens/frame-iphone.png) no-repeat;
-    
+    background: url(../imagens/frame-iphone.png) no-repeat;   
+}
+
+section#redes-sociais {
+    padding: 10px;
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%, -0%);
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+    box-sizing: border-box;
+    display: block;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.534);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+    transition: transform .3s, border .1s;
 }
 
 iframe#tela {
